@@ -42,18 +42,6 @@ router.post('/', async (req, res) => {
         })  
     }
 
-
-    // author.save((err, newAuthor) => {
-    //     if(err) {
-    //         res.render('authors/new', {
-    //             author: author,
-    //             errorMessage: 'Error Creating Author'
-    //         })  
-    //     }else {
-    //         // res.redirect(`authors/${newAuthor.id}`)
-    //         res.redirect('authors')
-    //     }
-    // })
 })
 
 module.exports = router
